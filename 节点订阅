@@ -1,8 +1,1 @@
-port: 7890
-socks-port: 7891
-allow-lan: true
-mode: Rule
-log-level: info
-external-controller: :9090
-proxies:
-  - {name: 韩国专线, type: Shadowsocks, server: 27.102.106.171, port: 443, password: 40d5089833fc, cipher: chacha20-ietf-poly1305, obfs: none, plugin: v2ray-plugin, udp: type}
+dHJvamFuOi8vZmFkZTM5M2EtMmZmZS00ZDAyLTk0OTItZTIyYTAyN2RjNjExQGhueWQuNTIxNDcudG9wOjIwMTIwLz9hbGxvd0luc2VjdXJlPTEmcGVlcj1kb3dubG9hZC53aW5kb3dzdXBkYXRlMS5jb20jJUU0JUI4JUFEJUU1JTlCJUJEJUU2JTlDJUJBJUU1JTlDJUJBCnNzOi8vWTJoaFkyaGhNakF0YVdWMFppMXdiMng1TVRNd05UbzBNR1ExTURnNU9ETXpabU5BTWpjdU1UQXlMakV3Tmk0eE56RTZORFF6P3YycmF5LXBsdWdpbj1leUp0ZFhnaU9uUnlkV1VzSW1odmMzUWlPaUozZUhjeE1EQXdUV3R5YkdsdVpUQXdNaTVtWlc1blkyaHBiR2x1WlM1NGVYb2lMQ0p0YjJSbElqb2lkMlZpYzI5amEyVjBJaXdpZEd4eklqcDBjblZsZlEjJUU5JTlGJUE5JUU1JTlCJUJEJUU0JUI4JTkzJUU3JUJBJUJG
