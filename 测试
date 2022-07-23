@@ -1,0 +1,19 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: :9090
+proxies:
+
+  - {name: 专线节点, server: 27.102.106.171, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 40d5089833fc}
+
+proxy-groups:
+  - name: 节点选择
+    type: select
+    proxies:
+      - 自动选择
+      - 故障转移
+      - 负载均衡
+      - DIRECT
+      - 节点专线
