@@ -28,12 +28,8 @@ URL-REGEX,^https:\/\/.+\.googlevideo\.com\/.+&oad,REJECT
 GEOIP,CN,DIRECT
 FINAL,PROXY
 
-
 [Host]
 localhost = 127.0.0.1
-
-[URL Rewrite]
-^https:\/\/mdnf.dn.nexoncdn.co.kr.*?resource-data.json http://v.opv5.com/api/Patch?name=resource-data.json&ukey=30-VO2J6D2U6DYI11 302
 
 [MITM]
 hostname = mdnf.dn.nexoncdn.co.kr
