@@ -1,7 +1,7 @@
 #!url=https://raw.githubusercontent.com/Git-jiacheng/DY/%E4%B8%BB%E8%A6%81/%E5%BD%B1%E5%AD%90%E6%A8%A1%E5%9D%97
 #!name=影子模块
 #!desc=联系方式:QQ83813125，版本号1.0
-# Shadowrocket: 2022-07-23 11:39:58
+# Shadowrocket: 2022-07-24 11:10:58
 [General]
 bypass-system = true
 dns-server = 223.5.5.5, 223.6.6.6, 119.29.29.29
